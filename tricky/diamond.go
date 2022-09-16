@@ -1,8 +1,9 @@
-package main
+package tricky
 
 import "fmt"
 
-func diamond(rows int) {
+// Diamond prints out a full diamond pattern on the terminal.
+func Diamond(rows int) {
 	for i := 1; i < rows+1; i++ {
 		for j := 1; j < rows-i+1; j++ {
 			fmt.Print(" ")

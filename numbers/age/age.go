@@ -1,8 +1,8 @@
-package main
+package age
 
 import "time"
 
-func ageCalculator(y, m, d int) int {
+func Calculate(y, m, d int) int {
 	now := time.Now()
 	dob := time.Date(y, time.Month(m), d, 0, 0, 0, 0, now.Location())
 

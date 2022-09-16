@@ -1,12 +1,11 @@
-package main
+package tricky
 
 import "fmt"
 
-func printPascal(n int) {
+// Pascal prints out a Pascal's triangle, given the number of desired rows.
+func Pascal(n int) {
 	arr := []int{1}
 	temp := []int{}
-
-	fmt.Printf("pascal's triangle of %d, rows...\n", n)
 
 	for i := 0; i < n; i++ {
 		fmt.Printf("rows %d : ", i+1)

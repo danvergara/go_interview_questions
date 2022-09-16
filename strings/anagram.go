@@ -1,4 +1,4 @@
-package main
+package strings
 
 func anagram(s, t string) bool {
 	lenS := len(s)

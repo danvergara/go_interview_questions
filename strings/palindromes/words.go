@@ -1,8 +1,9 @@
-package main
+package words
 
 import "strings"
 
-func palindrome(sentence string) []string {
+// Palindromes returns a list of the palidrome words in  a sentence.
+func Palindromes(sentence string) []string {
 	var p []string
 
 	for _, c := range ",.'?/><}{{}}'" {
